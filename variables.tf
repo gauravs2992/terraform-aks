@@ -1,7 +1,7 @@
 variable "location" {
   description = "Azure region for the test resource group and cluster."
   type        = string
-  default     = "eastus"
+  default     = "West US 2"
 }
 
 variable "resource_group_name" {
@@ -36,7 +36,7 @@ variable "node_count" {
 variable "node_vm_size" {
   description = "Azure VM size used by the system node pool."
   type        = string
-  default     = "Standard_D2s_v5"
+  default     = "Standard_B2als_v2"
 }
 
 variable "tags" {
